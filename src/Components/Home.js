@@ -1,18 +1,18 @@
 import React from 'react'
 import "./Home.css"
-import {FaCartArrowDown, FaUserAlt, FaSafari, FaTasks, FaCar} from 'react-icons/fa'
+import {FaCartArrowDown, FaUserAlt, FaSafari, FaTasks} from 'react-icons/fa'
 function Home() {
   return (
     <div className='d-flex home'>
         <div className='d-flex sidebar flex-column flex-shrink-0  bg-dark'>
             <ul className='nav nav-pills flex-column mb-auto px-0 mt-3'> 
                 <li className='nav-item '>                    
-                    <a href="#" className='nav-link text-white active'>
+                    <a href="/#" className='nav-link text-white active'>
                         <FaSafari/> <span className='ms-2'>Dashboard</span>
                     </a>
                 </li>
                 <li className='nav-item '>                    
-                    <a href="#" className='nav-link text-white'>
+                    <a href="/#" className='nav-link text-white'>
                         <FaCartArrowDown/> <span className='ms-2'>Teacher</span>
                     </a>
                 </li>

@@ -2,7 +2,7 @@ import React from 'react'
 import Logo1 from './Images/logo1.jpg'
 import LogoAfg from './Images/logoAfg.jpg'
 import './Header.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap'
 import Nav from './Nav'
 
 function Header() {
